@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escalação do Time</title>
+    <link rel="shortcut icon" href="imgs/campo icone.webp" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><img src="imgs/logo futebas.png" alt="" class="logo"></li>
+        </ul>
+    </nav>  
+
+    <div class="card">
+        <div class="campo" id="campo">
+            <img src="imgs/campo futebas.jpg" alt="Campo de Futebol" id="campo-img">
+            
+            <div class="numeros-jogadores">
+                <span class="numero" style="top: 20%; left: 30%;"></span>
+                <span class="numero" style="top: 20%; left: 50%;"></span>
+                <span class="numero" style="top: 40%; left: 20%;"></span>
+                <span class="numero" style="top: 40%; left: 40%;"></span>
+                <span class="numero" style="top: 40%; left: 60%;"></span>
+                <span class="numero" style="top: 60%; left: 30%;"></span>
+                <span class="numero" style="top: 60%; left: 50%;"></span>
+                <span class="numero" style="top: 60%; left: 70%;"></span>
+                <span class="numero" style="top: 80%; left: 40%;"></span>
+                <span class="numero" style="top: 80%; left: 60%;"></span>
+            </div>
+        </div>
+            
+            <div id="escalacao">
+                <h1>Faça sua Escalação</h1> 
+                <div class="select-container">                
+                    <div id="label">
+                        <label for="time">Escolha o Time</label>
+                        <select id="time">
+                            <option value="" disabled selected>Time</option>
+                            <option value="Palmeiras">Palmeiras</option>
+                            <option value="Corinthians">Corinthians</option>
+                            <option value="São Paulo">São Paulo</option>
+                            <option value="Flamengo">Flamengo</option>
+                            <option value="Grêmio">Grêmio</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="select-container">
+                        <label for="jogador">Escolha o Jogador:</label>
+                        <select id="jogador">
+                            <option value="" disabled selected>Nome do Jogador</option>
+                            <option value="Weverton">Weverton</option>
+                            <option value="Raphael Veiga">Raphael Veiga</option>
+                            <option value="Cássio">Cássio</option>
+                            <option value="Yuri Alberto">Yuri Alberto</option>
+                            <option value="Gabigol">Gabigol</option>
+                            <option value="Pedro">Pedro</option>
+                            <option value="Diego Costa">Diego Costa</option>
+                            <option value="Rodrigo Caio">Rodrigo Caio</option>
+                            <option value="Liziero">Liziero</option>
+                            <option value="Rodrigo Nestor">Rodrigo Nestor</option>
+                        </select>
+                    </div>
+                    
+                    <div class="input-container">
+                        <label for="numero-camisa">Número do Jogador</label>
+                        <select id="numero-camisa" name="numero-camisa">
+                            <option value="1">Número 1</option>
+                            <option value="2">Número 2</option>
+                            <option value="3">Número 3</option>
+                            <option value="4">Número 4</option>
+                            <option value="5">Número 5</option>
+                            <option value="6">Número 6</option>
+                            <option value="7">Número 7</option>
+                            <option value="8">Número 8</option>
+                            <option value="9">Número 9</option>
+                            <option value="10">Número 10</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="select-container">
+                        <label for="posicao">Escolha a Posição em Campo</label>
+                        <select id="posicao">
+                            <option value="" disabled selected>Selecione uma Posição</option>
+                            <option value="Goleiro">Goleiro</option>
+                            <option value="Lateral Direito">Lateral Direito</option>
+                            <option value="Zagueiro 1">Zagueiro 1</option>
+                            <option value="Zagueiro 2">Zagueiro 2</option>
+                            <option value="Lateral Esquerdo">Lateral Esquerdo</option>
+                            <option value="Volante">Volante</option>
+                            <option value="Meia Ofensivo">Meia Ofensivo</option>
+                            <option value="Meia Central">Meia Central</option>
+                            <option value="Atacante 1">Atacante 1</option>
+                            <option value="Atacante 2">Atacante 2</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="botão">
+                    <button type="submit" class="btn btn-primary">Escalar</button>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="select-container">
+                    <label for="cancelar-escalacao">Cancelar Escalação</label>
+                    <select id="cancelar-escalacao" name="cancelar-escalacao">
+                        <option value="" disabled selected>Selecione o Número</option>
+                        <option value="1">Número 1</option>
+                        <option value="2">Número 2</option>
+                        <option value="3">Número 3</option>
+                        <option value="4">Número 4</option>
+                        <option value="5">Número 5</option>
+                        <option value="6">Número 6</option>
+                        <option value="7">Número 7</option>
+                        <option value="8">Número 8</option>
+                        <option value="9">Número 9</option>
+                        <option value="10">Número 10</option>
+                    </select>
+                </div>
+                <div class="botão">
+                    <button type="button" class="btn btn-secondary">Cancelar</button> 
+                </div>
+                </div>
+            </div>
+    </div>
+
+    <script src="script.js"></script>   
+
+</body>
+</html>
