@@ -1,2 +1,19 @@
-# FutebasFC
-Site de escalação de futebol simples
+# ⚽ FutebasFC
+
+Site de escalação de futebol desenvolvido como projeto de estudo em HTML e CSS.
+
+## Sobre o projeto
+
+O FutebasFC é uma interface web estática que simula a visualização de escalação de um time de futebol. O foco do projeto foi a estruturação semântica do HTML e a organização visual com CSS puro — sem frameworks, sem dependências externas
+
+## O que foi praticado
+
+- Estruturação semântica com HTML5
+- Estilização e posicionamento com CSS3
+- Layout responsivo
+- Organização de elementos visuais sem uso de frameworks
+
+## Hospedagem
+
+Realizada no próprio GitPages, link abaixo:
+https://pgasaabyy.github.io/FutebasFC/
