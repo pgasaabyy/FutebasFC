@@ -11,7 +11,7 @@ O FutebasFC é uma interface web estática que simula a visualização de escala
 - Estruturação semântica com HTML5
 - Estilização e posicionamento com CSS3
 - Layout responsivo
-- Organização de elementos visuais sem uso de frameworks
+
 
 ## Hospedagem
 
