@@ -15,5 +15,5 @@ O FutebasFC é uma interface web estática que simula a visualização de escala
 
 ## Hospedagem
 
-Realizada no próprio GitPages, link abaixo:
+Realizada no próprio GitPages:
 https://pgasaabyy.github.io/FutebasFC/
